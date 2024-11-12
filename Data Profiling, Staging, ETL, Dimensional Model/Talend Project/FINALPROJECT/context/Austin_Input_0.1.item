@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_98mRUPLsEe6JqdlijyMAQg">
+    <contextParameter comment="" name="Austin_FieldSeparator" prompt="Austin_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_98mRUfLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_RowSeparator" prompt="Austin_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_98mRUvLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File" prompt="Austin_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_98mRU_LsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Header" prompt="Austin_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_98mRVPLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Encoding" prompt="Austin_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_98mRVfLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File_Name" prompt="Austin_File_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Austin_Crash_Report_Data_-_Crash_Level_Records_20240326" xmi:id="_98mRVvLsEe6JqdlijyMAQg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_98mRV_LsEe6JqdlijyMAQg">
+    <contextParameter comment="" name="Austin_FieldSeparator" prompt="Austin_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_98mRWPLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_RowSeparator" prompt="Austin_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_98mRWfLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File" prompt="Austin_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_98mRWvLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Header" prompt="Austin_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_98mRW_LsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Encoding" prompt="Austin_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_98mRXPLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File_Name" prompt="Austin_File_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Austin_Crash_Report_Data_-_Crash_Level_Records_20240326" xmi:id="_98mRXfLsEe6JqdlijyMAQg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_98mRXvLsEe6JqdlijyMAQg">
+    <contextParameter comment="" name="Austin_FieldSeparator" prompt="Austin_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_98mRX_LsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_RowSeparator" prompt="Austin_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_98mRYPLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File" prompt="Austin_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_98mRYfLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Header" prompt="Austin_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_98mRYvLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Encoding" prompt="Austin_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_98mRY_LsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File_Name" prompt="Austin_File_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Austin_Crash_Report_Data_-_Crash_Level_Records_20240326" xmi:id="_98mRZPLsEe6JqdlijyMAQg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_98mRZfLsEe6JqdlijyMAQg">
+    <contextParameter comment="" name="Austin_FieldSeparator" prompt="Austin_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_98mRZvLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_RowSeparator" prompt="Austin_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_98mRZ_LsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File" prompt="Austin_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_98mRaPLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Header" prompt="Austin_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_98mRafLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_Encoding" prompt="Austin_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_98mRavLsEe6JqdlijyMAQg"/>
+    <contextParameter comment="" name="Austin_File_Name" prompt="Austin_File_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Austin_Crash_Report_Data_-_Crash_Level_Records_20240326" xmi:id="_98mRa_LsEe6JqdlijyMAQg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5bca27e5-78ec-4a90-89a1-46b1ad182034"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T8XrxebwEveqOtu5I9VKOLcGzucqgPK5/uadXSy1qeU0D8+luqbOd8KERsc3TemILsGK96j7mPTJ&#13;
+CniKwuTyFg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_63070831-9dff-40b2-80d2-a306a878cdd8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mQvbqBSY0/7HSCz1FdHWqfaTgfiTjA/UZGPccpPIilLzvhrsKtfGXYBSaD+uxXJarxZPpExpQko9&#13;
+YalJWXujrQ==</DigestValue></Reference></SignedInfo><SignatureValue>nRVMnHPhMQc7ZXoKOBHFBwPpe7+bO3EerROS7Hnd4/h23462qvK0JFANZrqoxnSBYsVmIoJbfNcz&#13;
+rfdBXYb/FWODRk1/x9SxHv7TrIMxcRBhOLq0RJfBYEBYHN2WwqkdJ49aQhX1GkdW7sXOKFB+vm+X&#13;
+Ru36BimZvmg+YVNPuTSmV/V7x9AbKAwH49FAAyORDkv9CVhmr2etTi9yGdvJhNGNm6jzLu6oM4yo&#13;
+FhEDq0bdD3PynXn8GS4DdvTfdIbGjFuUkuUIvGFBlnpDgikCT2zZgn7ZR49F/tTU/c/BETAsLisK&#13;
+QpwV8MevljzxaSPR8XRdBSrJ7o6kRLeh06Ra3A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_63070831-9dff-40b2-80d2-a306a878cdd8" Target="#_5bca27e5-78ec-4a90-89a1-46b1ad182034"><Timestamp>2024-04-05 01:36:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

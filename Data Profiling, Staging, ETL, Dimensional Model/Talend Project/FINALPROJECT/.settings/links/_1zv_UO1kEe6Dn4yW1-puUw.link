@@ -1,0 +1,192 @@
+{
+  "itemId" : "_1zv_UO1kEe6Dn4yW1-puUw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_tkXvpfIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Encoding"
+    }, {
+      "id" : "_tkXvofIxEe6JqdlijyMAQg",
+      "name" : "Chicago_FieldSeparator"
+    }, {
+      "id" : "_tkXvo_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_File"
+    }, {
+      "id" : "_jXSo4PI3Ee6JqdlijyMAQg",
+      "name" : "Chicago_File_Name"
+    }, {
+      "id" : "_tkXvpPIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Header"
+    }, {
+      "id" : "_tkXvovIxEe6JqdlijyMAQg",
+      "name" : "Chicago_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoERvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    }, {
+      "id" : "_UMoERfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoEQfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoERPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoEQPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEQvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEQ_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_tkXvq_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_Encoding"
+    }, {
+      "id" : "_tkXvp_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_FieldSeparator"
+    }, {
+      "id" : "_tkXvqfIxEe6JqdlijyMAQg",
+      "name" : "Chicago_File"
+    }, {
+      "id" : "_jXSo4fI3Ee6JqdlijyMAQg",
+      "name" : "Chicago_File_Name"
+    }, {
+      "id" : "_tkXvqvIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Header"
+    }, {
+      "id" : "_tkXvqPIxEe6JqdlijyMAQg",
+      "name" : "Chicago_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoETvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    }, {
+      "id" : "_UMoETfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoESfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoETPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoESPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoESvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoES_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_tkXvsfIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Encoding"
+    }, {
+      "id" : "_tkXvrfIxEe6JqdlijyMAQg",
+      "name" : "Chicago_FieldSeparator"
+    }, {
+      "id" : "_tkXvr_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_File"
+    }, {
+      "id" : "_jXSo4vI3Ee6JqdlijyMAQg",
+      "name" : "Chicago_File_Name"
+    }, {
+      "id" : "_tkXvsPIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Header"
+    }, {
+      "id" : "_tkXvrvIxEe6JqdlijyMAQg",
+      "name" : "Chicago_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoEVvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    }, {
+      "id" : "_UMoEVfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoEUfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoEVPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoEUPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEUvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEU_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_tkXvt_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_Encoding"
+    }, {
+      "id" : "_tkXvs_IxEe6JqdlijyMAQg",
+      "name" : "Chicago_FieldSeparator"
+    }, {
+      "id" : "_tkXvtfIxEe6JqdlijyMAQg",
+      "name" : "Chicago_File"
+    }, {
+      "id" : "_jXSo4_I3Ee6JqdlijyMAQg",
+      "name" : "Chicago_File_Name"
+    }, {
+      "id" : "_tkXvtvIxEe6JqdlijyMAQg",
+      "name" : "Chicago_Header"
+    }, {
+      "id" : "_tkXvtPIxEe6JqdlijyMAQg",
+      "name" : "Chicago_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoEXvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    }, {
+      "id" : "_UMoEXfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoEWfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoEXPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoEWPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEWvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEW_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    } ]
+  } ]
+}

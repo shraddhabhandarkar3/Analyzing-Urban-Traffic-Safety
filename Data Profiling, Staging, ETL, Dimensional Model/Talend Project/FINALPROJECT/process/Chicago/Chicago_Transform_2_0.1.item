@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_p3GBEPI7Ee6JqdlijyMAQg" name="Chicago_Encoding" prompt="Chicago_Encoding?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_p3GBEfI7Ee6JqdlijyMAQg" name="Chicago_FieldSeparator" prompt="Chicago_FieldSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\t&quot;"/>
+    <contextParameter comment="" internalId="_p3GBEvI7Ee6JqdlijyMAQg" name="Chicago_File" prompt="Chicago_File?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Chicago_Traffic_Crashes_-_Crashes_20240326.tsv"/>
+    <contextParameter comment="" internalId="_p3GBE_I7Ee6JqdlijyMAQg" name="Chicago_File_Name" prompt="Chicago_File_Name?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="Chicago_Traffic_Crashes_-_Crashes_20240326"/>
+    <contextParameter comment="" internalId="_p3GBFPI7Ee6JqdlijyMAQg" name="Chicago_Header" prompt="Chicago_Header?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_p3GBFfI7Ee6JqdlijyMAQg" name="Chicago_RowSeparator" prompt="Chicago_RowSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_p3GBFvI7Ee6JqdlijyMAQg" name="DB_AdditionalParams" prompt="DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_p3GBF_I7Ee6JqdlijyMAQg" name="DB_Database" prompt="DB_Database?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="FinalProject-Accidents"/>
+    <contextParameter comment="" internalId="_p3GBGPI7Ee6JqdlijyMAQg" name="DB_Login" prompt="DB_Login?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="apoorv_damg7370"/>
+    <contextParameter comment="" internalId="_p3GoIPI7Ee6JqdlijyMAQg" name="DB_Password" prompt="DB_Password?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_Password" value="enc:system.encryption.key.v1:fu1HG8HxwCEQGXIdgr0BbdGxM/yURABSf95RAUBCo/lnh8Nzkw6A"/>
+    <contextParameter comment="" internalId="_p3GoIfI7Ee6JqdlijyMAQg" name="DB_Port" prompt="DB_Port?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_p3GoIvI7Ee6JqdlijyMAQg" name="DB_Schema" prompt="DB_Schema?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_p3GoI_I7Ee6JqdlijyMAQg" name="DB_Server" prompt="DB_Server?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter comment="" internalId="_p3GoJPI7Ee6JqdlijyMAQg" name="Chicago_Encoding" prompt="Chicago_Encoding?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_p3GoJfI7Ee6JqdlijyMAQg" name="Chicago_FieldSeparator" prompt="Chicago_FieldSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\t&quot;"/>
+    <contextParameter comment="" internalId="_p3GoJvI7Ee6JqdlijyMAQg" name="Chicago_File" prompt="Chicago_File?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Chicago_Traffic_Crashes_-_Crashes_20240326.tsv"/>
+    <contextParameter comment="" internalId="_p3GoJ_I7Ee6JqdlijyMAQg" name="Chicago_File_Name" prompt="Chicago_File_Name?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="Chicago_Traffic_Crashes_-_Crashes_20240326"/>
+    <contextParameter comment="" internalId="_p3GoKPI7Ee6JqdlijyMAQg" name="Chicago_Header" prompt="Chicago_Header?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_p3GoKfI7Ee6JqdlijyMAQg" name="Chicago_RowSeparator" prompt="Chicago_RowSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_p3GoKvI7Ee6JqdlijyMAQg" name="DB_AdditionalParams" prompt="DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_p3GoK_I7Ee6JqdlijyMAQg" name="DB_Database" prompt="DB_Database?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="FinalProject-Accidents"/>
+    <contextParameter comment="" internalId="_p3GoLPI7Ee6JqdlijyMAQg" name="DB_Login" prompt="DB_Login?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="apoorv_damg7370"/>
+    <contextParameter comment="" internalId="_p3GoLfI7Ee6JqdlijyMAQg" name="DB_Password" prompt="DB_Password?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_Password" value="enc:system.encryption.key.v1:5mJCbkTXURGswCHWlsRvTgz/8QdvMrQo4bfnLpUbS2sVUq3g+1i8"/>
+    <contextParameter comment="" internalId="_p3GoLvI7Ee6JqdlijyMAQg" name="DB_Port" prompt="DB_Port?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_p3GoL_I7Ee6JqdlijyMAQg" name="DB_Schema" prompt="DB_Schema?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_p3GoMPI7Ee6JqdlijyMAQg" name="DB_Server" prompt="DB_Server?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter comment="" internalId="_p3GoMfI7Ee6JqdlijyMAQg" name="Chicago_Encoding" prompt="Chicago_Encoding?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_p3GoMvI7Ee6JqdlijyMAQg" name="Chicago_FieldSeparator" prompt="Chicago_FieldSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\t&quot;"/>
+    <contextParameter comment="" internalId="_p3GoM_I7Ee6JqdlijyMAQg" name="Chicago_File" prompt="Chicago_File?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Chicago_Traffic_Crashes_-_Crashes_20240326.tsv"/>
+    <contextParameter comment="" internalId="_p3GoNPI7Ee6JqdlijyMAQg" name="Chicago_File_Name" prompt="Chicago_File_Name?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="Chicago_Traffic_Crashes_-_Crashes_20240326"/>
+    <contextParameter comment="" internalId="_p3GoNfI7Ee6JqdlijyMAQg" name="Chicago_Header" prompt="Chicago_Header?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_p3GoNvI7Ee6JqdlijyMAQg" name="Chicago_RowSeparator" prompt="Chicago_RowSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_p3GoN_I7Ee6JqdlijyMAQg" name="DB_AdditionalParams" prompt="DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_p3GoOPI7Ee6JqdlijyMAQg" name="DB_Database" prompt="DB_Database?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="FinalProject-Accidents"/>
+    <contextParameter comment="" internalId="_p3GoOfI7Ee6JqdlijyMAQg" name="DB_Login" prompt="DB_Login?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="apoorv_damg7370"/>
+    <contextParameter comment="" internalId="_p3GoOvI7Ee6JqdlijyMAQg" name="DB_Password" prompt="DB_Password?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_Password" value="enc:system.encryption.key.v1:mNjr1QwJfTk4a3epnfduvLK9J2FqtHfTztGBa5jMQZuNj4uKrVl0"/>
+    <contextParameter comment="" internalId="_p3GoO_I7Ee6JqdlijyMAQg" name="DB_Port" prompt="DB_Port?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_p3GoPPI7Ee6JqdlijyMAQg" name="DB_Schema" prompt="DB_Schema?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_p3GoPfI7Ee6JqdlijyMAQg" name="DB_Server" prompt="DB_Server?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="localhost"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="test">
+    <contextParameter comment="" internalId="_p3GoPvI7Ee6JqdlijyMAQg" name="Chicago_Encoding" prompt="Chicago_Encoding?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_p3GoP_I7Ee6JqdlijyMAQg" name="Chicago_FieldSeparator" prompt="Chicago_FieldSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\t&quot;"/>
+    <contextParameter comment="" internalId="_p3GoQPI7Ee6JqdlijyMAQg" name="Chicago_File" prompt="Chicago_File?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Chicago_Traffic_Crashes_-_Crashes_20240326.tsv"/>
+    <contextParameter comment="" internalId="_p3GoQfI7Ee6JqdlijyMAQg" name="Chicago_File_Name" prompt="Chicago_File_Name?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="Chicago_Traffic_Crashes_-_Crashes_20240326"/>
+    <contextParameter comment="" internalId="_p3GoQvI7Ee6JqdlijyMAQg" name="Chicago_Header" prompt="Chicago_Header?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_p3GoQ_I7Ee6JqdlijyMAQg" name="Chicago_RowSeparator" prompt="Chicago_RowSeparator?" promptNeeded="false" repositoryContextId="_tj3ZUPIxEe6JqdlijyMAQg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_p3GoRPI7Ee6JqdlijyMAQg" name="DB_AdditionalParams" prompt="DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_p3GoRfI7Ee6JqdlijyMAQg" name="DB_Database" prompt="DB_Database?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="FinalProject-Accidents"/>
+    <contextParameter comment="" internalId="_p3GoRvI7Ee6JqdlijyMAQg" name="DB_Login" prompt="DB_Login?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="apoorv_damg7370"/>
+    <contextParameter comment="" internalId="_p3GoR_I7Ee6JqdlijyMAQg" name="DB_Password" prompt="DB_Password?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_Password" value="enc:system.encryption.key.v1:VEV33LPLx7CC5o3Q7tgUNorXHuEoEIcCLrdXW5n3CQ/peH/AyA+4"/>
+    <contextParameter comment="" internalId="_p3GoSPI7Ee6JqdlijyMAQg" name="DB_Port" prompt="DB_Port?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_p3GoSfI7Ee6JqdlijyMAQg" name="DB_Schema" prompt="DB_Schema?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_p3GoSvI7Ee6JqdlijyMAQg" name="DB_Server" prompt="DB_Server?" promptNeeded="false" repositoryContextId="_UL0zAPIxEe6JqdlijyMAQg" type="id_String" value="localhost"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="64"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:uZOD32rQqflSGs0QKd1W47JuG6mQr2KivnBdTo9u"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Admin/Documents/Talend Workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:dLQ9D12Q/EbCcYOKHtcPiVtvKEc/tgkAG3E90m76"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_y_NbIO1kEe6Dn4yW1-puUw" name="SQLike"/>
+    <routinesParameter id="_y_bdkO1kEe6Dn4yW1-puUw" name="TalendDataGenerator"/>
+    <routinesParameter id="_y_crsO1kEe6Dn4yW1-puUw" name="Numeric"/>
+    <routinesParameter id="_y_eg4O1kEe6Dn4yW1-puUw" name="TalendString"/>
+    <routinesParameter id="_y_fvAO1kEe6Dn4yW1-puUw" name="TalendStringUtil"/>
+    <routinesParameter id="_y_gWEO1kEe6Dn4yW1-puUw" name="DataOperation"/>
+    <routinesParameter id="_y_hkMO1kEe6Dn4yW1-puUw" name="TalendDate"/>
+    <routinesParameter id="_y_iyUO1kEe6Dn4yW1-puUw" name="Relational"/>
+    <routinesParameter id="_y_lOkO1kEe6Dn4yW1-puUw" name="StringHandling"/>
+    <routinesParameter id="_y_nDwO1kEe6Dn4yW1-puUw" name="Mathematical"/>
+  </parameters>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_AOL_4PIxEe6JqdlijyMAQg"/>
+    <elementParameter field="TEXT" name="HOST" value="context.DB_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DB_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.DB_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.DB_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kFx/N2FeoW//gmx0mf321CADdZlxKc6QeFvUUvNY6QJFEC1p1XdVV6Z4RK1BtJU="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_transform_1"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;stg_chicago_transform_1&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_ID,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_Date,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_Time,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_Hour,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_Minute,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Latitude,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Longitude,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Street_Name,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Zip_Code,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Total_Injuries,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Total_Deaths,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Pedestrian_Injuries,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Pedestrian_Deaths,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Motorist_Injuries,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Motorist_Deaths,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Micromobility_Injuries,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Micromobility_Deaths,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Contributing_Factor,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Injury_Incapacitating,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Injuries_Non_Incapacitating,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Injuries_Possible,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Not_Injured,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Injuries_Unknown,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Crash_Month,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.CRASH_RECORD_ID,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.City,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.Data_Source,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.PID,&#10;&#9;&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1.DI_CreateDate&quot;&#10;+&quot;&#10;FROM&#9;\&quot;&quot;+context.DB_Schema+&quot;\&quot;.stg_chicago_transform_1&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Time"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Hour"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Minute"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Latitude"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Longitude"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Street_Name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Total_Injuries"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Total_Deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pedestrian_Injuries"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pedestrian_Deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motorist_Injuries"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motorist_Deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Micromobility_Injuries"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Micromobility_Deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injury_Incapacitating"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Non_Incapacitating"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Possible"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Not_Injured"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Unknown"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Month"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRASH_RECORD_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Data_Source"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_CreateDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="stg_chicago_transform_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="stg_chicago_transform_1" name="tDBInput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_WWkuAO7pEe6Dn4yW1-puUw-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Transform_2" name="Transform_2">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="FLOAT" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="FLOAT" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="Transform_2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Input.Crash_ID " name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Crash_Date " name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries expression="Input.Crash_Time " name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries expression="Input.Crash_Hour " name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Crash_Minute " name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Latitude " name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Input.Longitude " name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Input.Street_Name " name="Street_Name" type="id_String"/>
+        <mapperTableEntries expression="Input.Zip_Code " name="Zip_Code" type="id_String"/>
+        <mapperTableEntries expression="Input.Total_Injuries" name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Total_Deaths " name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Pedestrian_Injuries " name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Pedestrian_Deaths " name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Motorist_Injuries " name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Motorist_Deaths " name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Micromobility_Injuries " name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Micromobility_Deaths " name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Contributing_Factor " name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Input.Injury_Incapacitating " name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Injuries_Non_Incapacitating " name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Injuries_Possible " name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Not_Injured " name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Injuries_Unknown " name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries expression="Input.Crash_Month " name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries expression="Input.CRASH_RECORD_ID " name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries expression="Input.City " name="City" type="id_String"/>
+        <mapperTableEntries expression="Input.Data_Source " name="Data_Source" type="id_String"/>
+        <mapperTableEntries expression="Input.PID " name="PID" type="id_String"/>
+        <mapperTableEntries expression="Input.DI_CreateDate " name="DI_CreateDate" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Input" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Street_Name" type="id_String"/>
+        <mapperTableEntries name="Zip_Code" type="id_String"/>
+        <mapperTableEntries name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries name="City" type="id_String"/>
+        <mapperTableEntries name="Data_Source" type="id_String"/>
+        <mapperTableEntries name="PID" type="id_String"/>
+        <mapperTableEntries name="DI_CreateDate" type="id_Date"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tNormalize_2"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="Contributing_Factor"/>
+    <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;\\|&quot;"/>
+    <elementParameter field="CHECK" name="DEDUPLICATE" value="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="ESCAPE_CHAR" show="false" value="ESCAPE_MODE_DOUBLED"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;\&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DISCARD_TRAILING_EMPTY_STR" value="false"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Transform_2" name="tNormalize_2">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="FLOAT" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="FLOAT" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_5"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_WWkuAO7pEe6Dn4yW1-puUw-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="ck" name="Replace">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="Replace" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Transform_3.Crash_ID" name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Crash_Date" name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries expression="Transform_3.Crash_Time" name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries expression="Transform_3.Crash_Hour" name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Crash_Minute" name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Latitude" name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Transform_3.Longitude" name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Transform_3.Street_Name" name="Street_Name" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.Zip_Code" name="Zip_Code" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.Total_Injuries" name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Total_Deaths" name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Pedestrian_Injuries" name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Pedestrian_Deaths" name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Motorist_Injuries" name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Motorist_Deaths" name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Micromobility_Injuries" name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Micromobility_Deaths" name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Contributing_Factor" name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.Injury_Incapacitating" name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Injuries_Non_Incapacitating" name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Injuries_Possible" name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Not_Injured" name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Injuries_Unknown" name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.Crash_Month" name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries expression="Transform_3.CRASH_RECORD_ID" name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.City" name="City" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.Data_Source" name="Data_Source" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.PID" name="PID" type="id_String"/>
+        <mapperTableEntries expression="Transform_3.DI_CreateDate" name="DI_CreateDate" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Transform_3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Street_Name" type="id_String"/>
+        <mapperTableEntries name="Zip_Code" type="id_String"/>
+        <mapperTableEntries name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries name="City" type="id_String"/>
+        <mapperTableEntries name="Data_Source" type="id_String"/>
+        <mapperTableEntries name="PID" type="id_String"/>
+        <mapperTableEntries name="DI_CreateDate" type="id_Date"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tReplace" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplace_1"/>
+    <elementParameter field="CHECK" name="SIMPLE_MODE" value="true"/>
+    <elementParameter field="LABEL" name="SIMPLEMODE_OLDLABLE" show="false" value="Simple mode works with regex expression(in last version)"/>
+    <elementParameter field="TABLE" name="SUBSTITUTIONS">
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;ANIMAL&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Animal on Road - Domestic&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISREGARDING TRAFFIC SIGNALS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Disregard Stop and Go Signal&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISREGARDING STOP SIGN&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Disregard Stop Sign or Light&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISREGARDING ROAD MARKINGS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Disregard Warning Sign at Construction&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISTRACTION - FROM INSIDE VEHICLE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Distraction in Vehicle&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;IMPROPER LANE USAGE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Failed to Drive in Single Lane&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;PASSING STOPPED SCHOOL BUS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Failed to Stop for School Bus&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;MOTORCYCLE ADVANCING LEGALLY ON RED LIGHT&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Failed to Yield ROW - Turn on Red&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;TURNING RIGHT ON RED&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Failed to Yield ROW - Turn on Red&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISREGARDING YIELD SIGN&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Failed to Yield ROW - Yield Sign&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;EVASIVE ACTION DUE TO ANIMAL, OBJECT, NONMOTORIST&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Faulty Evasive Action&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;FOLLOWING TOO CLOSELY&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Followed Too Closely&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;HAD BEEN DRINKING (USE WHEN ARREST IS NOT MADE)&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Had Been Drinking&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;PHYSICAL CONDITION OF DRIVER&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Ill (Explain in Narrative)&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;VISION OBSCURED (SIGNS, TREE LIMBS, BUILDINGS, ETC.)&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Impaired Visibility (Explain in Narrative)&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;IMPROPER BACKING&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Improper Start from a Stopped, Standing, or Parked Position&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;IMPROPER OVERTAKING/PASSING&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Overtake and Pass Insufficient Clearance&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;FAILING TO REDUCE SPEED TO AVOID CRASH&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Unsafe Speed&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;EXCEEDING AUTHORIZED SPEED LIMIT&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Speeding - (Over Limit)&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;EXCEEDING SAFE SPEED FOR CONDITIONS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Speeding - (Over Limit)&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;IMPROPER TURNING/NO SIGNAL&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Turned when Unsafe&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;UNDER THE INFLUENCE OF ALCOHOL/DRUGS (USE WHEN ARREST IS EFFECTED)&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Intoxicated - Alcohol&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DRIVING ON WRONG SIDE/WRONG WAY&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Wrong Side - Not Passing&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;OPERATING VEHICLE IN ERRATIC, RECKLESS, CARELESS, NEGLIGENT OR AGGRESSIVE MANNER&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Road Rage&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;TEXTING&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Cell/Mobile Device Use - Texting&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;CELL PHONE USE OTHER THAN TEXTING&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Cell/Mobile Device Use - Other&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;NOT APPLICABLE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;other&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;BICYCLE ADVANCING LEGALLY ON RED LIGHT&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;BICYCLE ADVANCING LEGALLY ON RED LIGHT&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISTRACTION - FROM OUTSIDE VEHICLE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;DISTRACTION - FROM OUTSIDE VEHICLE&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISREGARDING OTHER TRAFFIC SIGNS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;DISREGARDING OTHER TRAFFIC SIGNS&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DISTRACTION - OTHER ELECTRONIC DEVICE (NAVIGATION DEVICE, DVD PLAYER, ETC.)&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;DISTRACTION - OTHER ELECTRONIC DEVICE (NAVIGATION DEVICE, DVD PLAYER, ETC.)&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;DRIVING SKILLS/KNOWLEDGE/EXPERIENCE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;DRIVING SKILLS/KNOWLEDGE/EXPERIENCE&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;EQUIPMENT - VEHICLE CONDITION&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;VEHICLE CONDITION&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;FAILING TO YIELD RIGHT-OF-WAY&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;FAILING TO YIELD RIGHT-OF-WAY&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;OBSTRUCTED CROSSWALKS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;OBSTRUCTED CROSSWALKS&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;RELATED TO BUS STOP&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;RELATED TO BUS STOP&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;ROAD CONSTRUCTION/MAINTENANCE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;ROAD CONSTRUCTION/MAINTENANCE&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;ROAD ENGINEERING/SURFACE/MARKING DEFECTS&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;Pavement Defective&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot;WEATHER&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;WEATHER&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+      <elementValue elementRef="INPUT_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="SEARCH_PATTERN" value="&quot; UNABLE TO DETERMINE&quot;"/>
+      <elementValue elementRef="REPLACE_STRING" value="&quot;UNABLE TO DETERMINE&quot;"/>
+      <elementValue elementRef="WHOLE_WORD" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="USE_GLOB" value="false"/>
+      <elementValue elementRef="COMMENT" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="STRICT_MATCH" show="false" value="true"/>
+    <elementParameter field="CHECK" name="ADVANCED_MODE" value="false"/>
+    <elementParameter field="TABLE" name="ADVANCED_SUBST" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="ck" name="tReplace_1">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_6"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_WWkuAO7pEe6Dn4yW1-puUw-tMap_6-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Transformation_Final" name="Transform_Final">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="Transform_Final" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="OPMap.Crash_ID" name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Crash_Date" name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries expression="OPMap.Crash_Time" name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries expression="OPMap.Crash_Hour" name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Crash_Minute" name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Latitude" name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="OPMap.Longitude" name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries expression="OPMap.Street_Name" name="Street_Name" type="id_String"/>
+        <mapperTableEntries expression="OPMap.Zip_Code" name="Zip_Code" type="id_String"/>
+        <mapperTableEntries expression="OPMap.Total_Injuries" name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Total_Deaths" name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Pedestrian_Injuries" name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Pedestrian_Deaths" name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Motorist_Injuries" name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Motorist_Deaths" name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Micromobility_Injuries" name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Micromobility_Deaths" name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Contributing_Factor" name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="OPMap.Injury_Incapacitating" name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Injuries_Non_Incapacitating" name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Injuries_Possible" name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Not_Injured" name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Injuries_Unknown" name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.Crash_Month" name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries expression="OPMap.CRASH_RECORD_ID" name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries expression="OPMap.City" name="City" type="id_String"/>
+        <mapperTableEntries expression="OPMap.Data_Source" name="Data_Source" type="id_String"/>
+        <mapperTableEntries expression="OPMap.PID" name="PID" type="id_String"/>
+        <mapperTableEntries expression="OPMap.DI_CreateDate" name="DI_CreateDate" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="OPMap" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Crash_ID" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Date" type="id_Date"/>
+        <mapperTableEntries name="Crash_Time" type="id_Date"/>
+        <mapperTableEntries name="Crash_Hour" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Minute" type="id_Integer"/>
+        <mapperTableEntries name="Latitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Longitude" type="id_BigDecimal"/>
+        <mapperTableEntries name="Street_Name" type="id_String"/>
+        <mapperTableEntries name="Zip_Code" type="id_String"/>
+        <mapperTableEntries name="Total_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Total_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Pedestrian_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Motorist_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Injuries" type="id_Integer"/>
+        <mapperTableEntries name="Micromobility_Deaths" type="id_Integer"/>
+        <mapperTableEntries name="Contributing_Factor" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Injury_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Non_Incapacitating" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Possible" type="id_Integer"/>
+        <mapperTableEntries name="Not_Injured" type="id_Integer"/>
+        <mapperTableEntries name="Injuries_Unknown" type="id_Integer"/>
+        <mapperTableEntries name="Crash_Month" type="id_Integer"/>
+        <mapperTableEntries name="CRASH_RECORD_ID" type="id_String"/>
+        <mapperTableEntries name="City" type="id_String"/>
+        <mapperTableEntries name="Data_Source" type="id_String"/>
+        <mapperTableEntries name="PID" type="id_String"/>
+        <mapperTableEntries name="DI_CreateDate" type="id_Date"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_AOL_4PIxEe6JqdlijyMAQg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" value="context.DB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DB_Port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.DB_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.DB_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="USER" value="context.DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aw5iHzmCPd31BOb7sK38FmaatpqxqYfYHl5H4weiI79tsJDdMOgvPoS0C5fKBjw="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;stg_final_chicago&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="Crash_ID"/>
+    <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
+    <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.DB_AdditionalParams"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Date"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Time"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Hour"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Minute"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Latitude"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Longitude"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Street_Name"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Total_Injuries"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Total_Deaths"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pedestrian_Injuries"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pedestrian_Deaths"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motorist_Injuries"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motorist_Deaths"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Micromobility_Injuries"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Micromobility_Deaths"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Contributing_Factor"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injury_Incapacitating"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Non_Incapacitating"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Possible"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Not_Injured"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Injuries_Unknown"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Crash_Month"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRASH_RECORD_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Data_Source"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_CreateDate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="stg_final_chicago"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Transformation_Final" name="tDBOutput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="Transformation_Final" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_ID" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Crash_Date" nullable="false" pattern="&quot;MM/dd/yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="Crash_Time" nullable="false" pattern="&quot;HH:mm&quot;" precision="0" sourceType="TIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Hour" nullable="false" originalLength="5" pattern="&quot;HH&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Minute" nullable="false" originalLength="5" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Latitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Longitude" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="Street_Name" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="20" name="Zip_Code" nullable="false" originalLength="20" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Injuries" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Total_Deaths" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Pedestrian_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Motorist_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Injuries" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Micromobility_Deaths" nullable="false" originalLength="10" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1000" name="Contributing_Factor" nullable="true" originalLength="1000" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injury_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="Injuries_Non_Incapacitating" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Possible" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Not_Injured" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Injuries_Unknown" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Crash_Month" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="128" name="CRASH_RECORD_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="City" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="500" name="Data_Source" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="100" name="PID" nullable="false" originalLength="100" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="23" name="DI_CreateDate" nullable="false" originalLength="23" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="Input" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Input"/>
+  </connection>
+  <connection connectorName="FLOW" label="Transform_2" lineStyle="0" metaname="Transform_2" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tNormalize_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DI_CreateDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Transform_2"/>
+  </connection>
+  <connection connectorName="FLOW" label="Transform_3" lineStyle="0" metaname="tNormalize_2" offsetLabelX="0" offsetLabelY="0" source="tNormalize_2" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Transform_3"/>
+  </connection>
+  <connection connectorName="FLOW" label="Replace" lineStyle="0" metaname="Replace" offsetLabelX="0" offsetLabelY="0" source="tMap_5" target="tReplace_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DI_CreateDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Replace"/>
+  </connection>
+  <connection connectorName="FLOW" label="OPMap" lineStyle="0" metaname="tReplace_1" offsetLabelX="0" offsetLabelY="0" source="tReplace_1" target="tMap_6">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OPMap"/>
+  </connection>
+  <connection connectorName="FLOW" label="Transform_Final" lineStyle="0" metaname="Transform_Final" offsetLabelX="0" offsetLabelY="0" source="tMap_6" target="tDBOutput_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DI_CreateDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zip_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Micromobility_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Total_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Injuries"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Motorist_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pedestrian_Deaths"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Transform_Final"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cf958870-5b53-4a5e-b2f0-d6c2b6c02505"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>s+9eA/657xqNAUGGoghEU2BGBf9uuoVmoixsnpM4eastYcfCe7fMetuKGt/5QYwRqtHZXx3TNqYh&#13;
+28BAxWK2/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dad877a5-7073-4d28-8769-9a23630f69db"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RV8mRpZ7lN2Kadp5+ABl4XMEZnHdwpDwCqjEHj8elTqEAyninoXIwCAVJPO404Q34nzunoLwCa6A&#13;
+a3RgA3golg==</DigestValue></Reference></SignedInfo><SignatureValue>h9B7VcU3XijJ/LeixSo8/CnhxNqEnO8u3dKmr80VFrfAreh9OB6eRBdACqWTdaPESvuFTNMcHg3U&#13;
+BuKpjFXEc0YMKISVKrUbtRwboOIVsXIQQmksDzhVBsIJWQYoQ6DurKoFg52QYsElva0AGqe+hjnk&#13;
+JSkpjVQatX5CeorR961ZlEaLEk72Og6f1lYxB8f9hqQIkkuxGr4ToPsnLAP8aris8DS8aErM8+B2&#13;
+g6Oo9V7ph8Un43EzrWlUzKnj+WuwJ+kNGTg5BNIKHkVESKnauWS36KlgVz+juU57Mr/MzeaMmJCm&#13;
+ImFxT3PlSBX6cwp+oNeIz2No91PqHuUhQQ+U/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dad877a5-7073-4d28-8769-9a23630f69db" Target="#_cf958870-5b53-4a5e-b2f0-d6c2b6c02505"><Timestamp>2024-04-08 00:32:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

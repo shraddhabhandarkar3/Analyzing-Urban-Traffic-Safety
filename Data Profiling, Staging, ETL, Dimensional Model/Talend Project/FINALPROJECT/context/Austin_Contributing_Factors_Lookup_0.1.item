@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_MqY20PNuEe6YMK9GGZSAEQ">
+    <contextParameter comment="" name="Contributing_Factors_Lookup_FirstColumn" prompt="Contributing_Factors_Lookup_FirstColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY20fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_LastColumn" prompt="Contributing_Factors_Lookup_LastColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_MqY20vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Header" prompt="Contributing_Factors_Lookup_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY20_NuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_DecimalSeparator" prompt="Contributing_Factors_Lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="'.'" xmi:id="_MqY21PNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_ThousandSeparator" prompt="Contributing_Factors_Lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="','" xmi:id="_MqY21fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_File" prompt="Contributing_Factors_Lookup_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Contributing Factor Mapping.xlsx" xmi:id="_MqY21vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Encoding" prompt="Contributing_Factors_Lookup_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MqY21_NuEe6YMK9GGZSAEQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_MqY22PNuEe6YMK9GGZSAEQ">
+    <contextParameter comment="" name="Contributing_Factors_Lookup_FirstColumn" prompt="Contributing_Factors_Lookup_FirstColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY22fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_LastColumn" prompt="Contributing_Factors_Lookup_LastColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_MqY22vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Header" prompt="Contributing_Factors_Lookup_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY22_NuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_DecimalSeparator" prompt="Contributing_Factors_Lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="'.'" xmi:id="_MqY23PNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_ThousandSeparator" prompt="Contributing_Factors_Lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="','" xmi:id="_MqY23fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_File" prompt="Contributing_Factors_Lookup_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Contributing Factor Mapping.xlsx" xmi:id="_MqY23vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Encoding" prompt="Contributing_Factors_Lookup_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MqY23_NuEe6YMK9GGZSAEQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_MqY24PNuEe6YMK9GGZSAEQ">
+    <contextParameter comment="" name="Contributing_Factors_Lookup_FirstColumn" prompt="Contributing_Factors_Lookup_FirstColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY24fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_LastColumn" prompt="Contributing_Factors_Lookup_LastColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_MqY24vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Header" prompt="Contributing_Factors_Lookup_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY24_NuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_DecimalSeparator" prompt="Contributing_Factors_Lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="'.'" xmi:id="_MqY25PNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_ThousandSeparator" prompt="Contributing_Factors_Lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="','" xmi:id="_MqY25fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_File" prompt="Contributing_Factors_Lookup_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Contributing Factor Mapping.xlsx" xmi:id="_MqY25vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Encoding" prompt="Contributing_Factors_Lookup_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MqY25_NuEe6YMK9GGZSAEQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_MqY26PNuEe6YMK9GGZSAEQ">
+    <contextParameter comment="" name="Contributing_Factors_Lookup_FirstColumn" prompt="Contributing_Factors_Lookup_FirstColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY26fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_LastColumn" prompt="Contributing_Factors_Lookup_LastColumn?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_MqY26vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Header" prompt="Contributing_Factors_Lookup_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_MqY26_NuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_DecimalSeparator" prompt="Contributing_Factors_Lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="'.'" xmi:id="_MqY27PNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_ThousandSeparator" prompt="Contributing_Factors_Lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="','" xmi:id="_MqY27fNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_File" prompt="Contributing_Factors_Lookup_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/Contributing Factor Mapping.xlsx" xmi:id="_MqY27vNuEe6YMK9GGZSAEQ"/>
+    <contextParameter comment="" name="Contributing_Factors_Lookup_Encoding" prompt="Contributing_Factors_Lookup_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_MqY27_NuEe6YMK9GGZSAEQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_80c177c0-eedb-4e52-94a8-f21af3ace127"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pUKwm1n5rvYyXmbxX1AcyG454AkqIH1qXlApL7jYQR04z29vxQfSn3gCP7Lw5atXfqPzion0sZGD&#13;
+YM2AB4aydw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3265da75-2bf0-455d-a436-452cee54e6de"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>osYvOLZazZpEzwiylo1e8nn4Wa4vTrm81wsmvI6ETyFWiJP7lof0qq3ukAxQSOcc18lgCzYboGwA&#13;
+Wh3A6goCZA==</DigestValue></Reference></SignedInfo><SignatureValue>Tk5atf8DsOyPxRMI4mQ90VB+BlrxeQIG7f40fhm5Rt4j+NV2ZbjCOUK1/8RU5raWnxecX2DA64Ac&#13;
+0+7lVEeEFVxrplJ8q5gwCHcaNNk/SABgednXrvr5Mf284bQ3O5srPPttEW0adkFVS0jf4hBBDIYu&#13;
+wWSpvxPW3czg4m6ufBrP37qShvVIdECoToXLwiH5eoilasLSSJ0Rs7+npB3jL+P2XODGx9Ay4NvN&#13;
+4+KPCPEarIDXmsU3SBkt8S/vvCGuE2fhJhjIolN0Iz8fgSauu71opFh9YIqzJuRTQweKG+dqs+7l&#13;
+EtKKoseaZgZQYD9iv5Sz/JcYzv1K3o1yElhIvg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3265da75-2bf0-455d-a436-452cee54e6de" Target="#_80c177c0-eedb-4e52-94a8-f21af3ace127"><Timestamp>2024-04-05 17:01:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

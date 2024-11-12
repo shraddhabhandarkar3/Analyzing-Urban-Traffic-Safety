@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_nX3N8PONEe6Kg-b4z3txog">
+    <contextParameter comment="" name="nyc_vehicle_mapping_FirstColumn" prompt="nyc_vehicle_mapping_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_nX3N8fONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_DecimalSeparator" prompt="nyc_vehicle_mapping_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_nX3N8vONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Encoding" prompt="nyc_vehicle_mapping_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_nX3N8_ONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Header" prompt="nyc_vehicle_mapping_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_nX3N9PONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_ThousandSeparator" prompt="nyc_vehicle_mapping_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_nX3N9fONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_File" prompt="nyc_vehicle_mapping_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/NYC_VEHICLE_MAPPING.xlsx" xmi:id="_nX3N9vONEe6Kg-b4z3txog"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_LastColumn" prompt="nyc_vehicle_mapping_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_nX3N9_ONEe6Kg-b4z3txog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_0AAKoPPDEe6xsfarKKy-EA">
+    <contextParameter comment="" name="nyc_vehicle_mapping_FirstColumn" prompt="nyc_vehicle_mapping_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKofPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_DecimalSeparator" prompt="nyc_vehicle_mapping_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_0AAKovPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Encoding" prompt="nyc_vehicle_mapping_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_0AAKo_PDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Header" prompt="nyc_vehicle_mapping_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKpPPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_ThousandSeparator" prompt="nyc_vehicle_mapping_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_0AAKpfPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_File" prompt="nyc_vehicle_mapping_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/NYC_VEHICLE_MAPPING.xlsx" xmi:id="_0AAKpvPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_LastColumn" prompt="nyc_vehicle_mapping_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_0AAKp_PDEe6xsfarKKy-EA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_0AAKqPPDEe6xsfarKKy-EA">
+    <contextParameter comment="" name="nyc_vehicle_mapping_FirstColumn" prompt="nyc_vehicle_mapping_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKqfPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_DecimalSeparator" prompt="nyc_vehicle_mapping_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_0AAKqvPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Encoding" prompt="nyc_vehicle_mapping_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_0AAKq_PDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Header" prompt="nyc_vehicle_mapping_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKrPPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_ThousandSeparator" prompt="nyc_vehicle_mapping_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_0AAKrfPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_File" prompt="nyc_vehicle_mapping_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/NYC_VEHICLE_MAPPING.xlsx" xmi:id="_0AAKrvPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_LastColumn" prompt="nyc_vehicle_mapping_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_0AAKr_PDEe6xsfarKKy-EA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_0AAKsPPDEe6xsfarKKy-EA">
+    <contextParameter comment="" name="nyc_vehicle_mapping_FirstColumn" prompt="nyc_vehicle_mapping_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKsfPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_DecimalSeparator" prompt="nyc_vehicle_mapping_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_0AAKsvPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Encoding" prompt="nyc_vehicle_mapping_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_0AAKs_PDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_Header" prompt="nyc_vehicle_mapping_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0AAKtPPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_ThousandSeparator" prompt="nyc_vehicle_mapping_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_0AAKtfPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_File" prompt="nyc_vehicle_mapping_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Documents/FinalProject/Final_Project_Datasets/NYC_VEHICLE_MAPPING.xlsx" xmi:id="_0AAKtvPDEe6xsfarKKy-EA"/>
+    <contextParameter comment="" name="nyc_vehicle_mapping_LastColumn" prompt="nyc_vehicle_mapping_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_0AAKt_PDEe6xsfarKKy-EA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9fdcd46a-d603-4c7d-a287-673b0626a90a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1p1hC+JUB5FRkO8hXDABLW/8l/gR0OtKECB9QzdNhEqpsBpNKszT0qXnUZsiFG+iyRWEYtdrR/Tx&#13;
+e4Apx3uauQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_344d066f-8c56-43a9-bbda-08d25916e8f5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rlwv9PUWX9MInsH7nRWebQbqZDsQEikq8xePkwpi19IRv7q5KGUE5QEqXzvpKbDL8n15Rulzv7S0&#13;
+ZqXpE8Fx2Q==</DigestValue></Reference></SignedInfo><SignatureValue>PIJTzlCKN03EG9SON1B9euK7GZEVv91STOiOPlCuJBcdaXW4yba0aGrIcWzc+kvQG2spNjS69BRv&#13;
+Ae2+JSQ5c1MRAW8wsj3rPNc3ncOxBFylvZodnVzcbIPJKz08IUNGiG0WUz10+6dyu8PZqzT29iHR&#13;
+1lKpEQEtkLEXzHAqzW1H874pbzEFiA0a29apxPeUB4MS2+VJ3OdU33VDlf69GlFMlDWqMIJKu7VQ&#13;
+75WcaJ97FIhG/9Ny0kJXMQKO4k3UKATOwFvVtYIPSHfFwHXnZgnJr2rYHFvDeD4+w21XhZZOT03h&#13;
+j+PnuKCdRiKrV5TQSc2XoeYT2hqeUI9SPcjy/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_344d066f-8c56-43a9-bbda-08d25916e8f5" Target="#_9fdcd46a-d603-4c7d-a287-673b0626a90a"><Timestamp>2024-04-06 03:14:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,29 @@
+{
+  "itemId" : "_siLWsPONEe6Kg-b4z3txog",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_nXpLgPONEe6Kg-b4z3txog",
+    "parameterList" : [ {
+      "id" : "_nX3N8fONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_FirstColumn"
+    }, {
+      "id" : "_nX3N8vONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_DecimalSeparator"
+    }, {
+      "id" : "_nX3N8_ONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_Encoding"
+    }, {
+      "id" : "_nX3N9PONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_Header"
+    }, {
+      "id" : "_nX3N9fONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_ThousandSeparator"
+    }, {
+      "id" : "_nX3N9vONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_File"
+    }, {
+      "id" : "_nX3N9_ONEe6Kg-b4z3txog",
+      "name" : "nyc_vehicle_mapping_LastColumn"
+    } ]
+  } ]
+}

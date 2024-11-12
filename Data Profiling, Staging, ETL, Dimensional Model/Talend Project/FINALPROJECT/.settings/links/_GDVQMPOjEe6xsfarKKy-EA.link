@@ -1,0 +1,104 @@
+{
+  "itemId" : "_GDVQMPOjEe6xsfarKKy-EA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoEQPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEQfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoEQvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEQ_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    }, {
+      "id" : "_UMoERPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoERfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoERvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoEUPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEUfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoEUvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEU_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    }, {
+      "id" : "_UMoEVPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoEVfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoEVvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoESPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoESfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoESvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoES_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    }, {
+      "id" : "_UMoETPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoETfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoETvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoEWPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoEWfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoEWvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoEW_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    }, {
+      "id" : "_UMoEXPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoEXfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoEXvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    } ]
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemId" : "_r8lZAO18Ee6tToDUy2RgdA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_0NeCAPIaEe6cd8KMOgK59w",
+    "parameterList" : [ {
+      "id" : "_0Nvu0fIaEe6cd8KMOgK59w",
+      "name" : "nyc_file_RowSeparator"
+    }, {
+      "id" : "_0Nvu0vIaEe6cd8KMOgK59w",
+      "name" : "nyc_file_Header"
+    }, {
+      "id" : "_0Nvu0_IaEe6cd8KMOgK59w",
+      "name" : "nyc_file_FieldSeparator"
+    }, {
+      "id" : "_0Nvu1PIaEe6cd8KMOgK59w",
+      "name" : "nyc_file_File"
+    }, {
+      "id" : "_0Nvu1fIaEe6cd8KMOgK59w",
+      "name" : "nyc_file_Encoding"
+    }, {
+      "id" : "_0Nvu1vIaEe6cd8KMOgK59w",
+      "name" : "nyc_file_name"
+    } ]
+  } ]
+}

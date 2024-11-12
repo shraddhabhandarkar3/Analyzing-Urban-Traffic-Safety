@@ -1,0 +1,29 @@
+{
+  "itemId" : "_AOL_4PIxEe6JqdlijyMAQg",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "parameterList" : [ {
+      "id" : "_UMoESPIxEe6JqdlijyMAQg",
+      "name" : "DB_Port"
+    }, {
+      "id" : "_UMoESfIxEe6JqdlijyMAQg",
+      "name" : "DB_Login"
+    }, {
+      "id" : "_UMoESvIxEe6JqdlijyMAQg",
+      "name" : "DB_Schema"
+    }, {
+      "id" : "_UMoES_IxEe6JqdlijyMAQg",
+      "name" : "DB_Server"
+    }, {
+      "id" : "_UMoETPIxEe6JqdlijyMAQg",
+      "name" : "DB_Password"
+    }, {
+      "id" : "_UMoETfIxEe6JqdlijyMAQg",
+      "name" : "DB_Database"
+    }, {
+      "id" : "_UMoETvIxEe6JqdlijyMAQg",
+      "name" : "DB_AdditionalParams"
+    } ]
+  } ]
+}

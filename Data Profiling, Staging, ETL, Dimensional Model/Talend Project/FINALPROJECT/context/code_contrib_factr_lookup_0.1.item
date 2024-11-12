@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_wyHiAPR2Ee69BMzFWayHpg">
+    <contextParameter comment="" name="code_contrib_factr_lookup_DecimalSeparator" prompt="code_contrib_factr_lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_wyHiAfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_ThousandSeparator" prompt="code_contrib_factr_lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_wyHiAvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_File" prompt="code_contrib_factr_lookup_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Downloads/Contrib_Factr_Look_Up.xlsx" xmi:id="_wyHiA_R2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_FirstColumn" prompt="code_contrib_factr_lookup_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiBPR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_LastColumn" prompt="code_contrib_factr_lookup_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="2" xmi:id="_wyHiBfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Encoding" prompt="code_contrib_factr_lookup_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_wyHiBvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Header" prompt="code_contrib_factr_lookup_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiB_R2Ee69BMzFWayHpg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_wyHiCPR2Ee69BMzFWayHpg">
+    <contextParameter comment="" name="code_contrib_factr_lookup_DecimalSeparator" prompt="code_contrib_factr_lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_wyHiCfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_ThousandSeparator" prompt="code_contrib_factr_lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_wyHiCvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_File" prompt="code_contrib_factr_lookup_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Downloads/Contrib_Factr_Look_Up.xlsx" xmi:id="_wyHiC_R2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_FirstColumn" prompt="code_contrib_factr_lookup_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiDPR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_LastColumn" prompt="code_contrib_factr_lookup_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="2" xmi:id="_wyHiDfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Encoding" prompt="code_contrib_factr_lookup_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_wyHiDvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Header" prompt="code_contrib_factr_lookup_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiD_R2Ee69BMzFWayHpg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_wyHiEPR2Ee69BMzFWayHpg">
+    <contextParameter comment="" name="code_contrib_factr_lookup_DecimalSeparator" prompt="code_contrib_factr_lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_wyHiEfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_ThousandSeparator" prompt="code_contrib_factr_lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_wyHiEvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_File" prompt="code_contrib_factr_lookup_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Downloads/Contrib_Factr_Look_Up.xlsx" xmi:id="_wyHiE_R2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_FirstColumn" prompt="code_contrib_factr_lookup_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiFPR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_LastColumn" prompt="code_contrib_factr_lookup_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="2" xmi:id="_wyHiFfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Encoding" prompt="code_contrib_factr_lookup_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_wyHiFvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Header" prompt="code_contrib_factr_lookup_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiF_R2Ee69BMzFWayHpg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_wyHiGPR2Ee69BMzFWayHpg">
+    <contextParameter comment="" name="code_contrib_factr_lookup_DecimalSeparator" prompt="code_contrib_factr_lookup_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_wyHiGfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_ThousandSeparator" prompt="code_contrib_factr_lookup_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_wyHiGvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_File" prompt="code_contrib_factr_lookup_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/Admin/Downloads/Contrib_Factr_Look_Up.xlsx" xmi:id="_wyHiG_R2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_FirstColumn" prompt="code_contrib_factr_lookup_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiHPR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_LastColumn" prompt="code_contrib_factr_lookup_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="2" xmi:id="_wyHiHfR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Encoding" prompt="code_contrib_factr_lookup_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_wyHiHvR2Ee69BMzFWayHpg"/>
+    <contextParameter comment="" name="code_contrib_factr_lookup_Header" prompt="code_contrib_factr_lookup_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_wyHiH_R2Ee69BMzFWayHpg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9033ae1d-673a-46dc-97e1-47616ffbe428"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LD1JqYri9obKNMyqJaW3sBk6HRPFxvpo7ERiW4As+xF7RU0cLbgZe+DRZr94npxL0/EEk1F3SWoM&#13;
+9uzgk3K4Ew==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6ee61e2b-797f-44b0-a0e8-639aaa876801"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gWH/Rfl9tGxzJE8gY4agw3X8wLD5Q4jzUC8kmrVlDjPpPuZhgcy+Ex/T3AIY6UXyyZVIJANSLog3&#13;
+C8sOk2EBLg==</DigestValue></Reference></SignedInfo><SignatureValue>BpkNTLcAAjwry00AhedbsOsqZQg5V/ibovmC+4V3sacc1z9zFcM907JLZZ2PBv9878+GQQRBPcMu&#13;
+VWbCxo31CwjduWyaXdr/smflUGE8PRbvrl9ARqpLjEsP+asCYeUdP7RreqVxZ12/5IyOLCJ+uLsl&#13;
+j1Dl+ex5PRC7Al4xJxNCP77hXmhNkJa7yDo7MEiFqBh+9TXG57aNG7RGAT9X9cPiFmHO0AhZe0uX&#13;
+nwccnIasUrZyxmqvI1sAwKqc2MZH4+Z0bQW+qReKvhDI738IT38XB2xWAFnBfb6ZVka4vGiT97HL&#13;
+ir2yEd+iJk3g9YdKMNAZA5YarO17bn8VpfWG5Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6ee61e2b-797f-44b0-a0e8-639aaa876801" Target="#_9033ae1d-673a-46dc-97e1-47616ffbe428"><Timestamp>2024-04-07 00:37:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

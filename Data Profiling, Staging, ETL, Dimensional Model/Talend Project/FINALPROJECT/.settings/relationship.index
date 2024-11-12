@@ -1,0 +1,779 @@
+[ {
+  "baseItem" : {
+    "id" : "_0AIocPJNEe6L1PLSbQrUtg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_97TQ0PLsEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - pre_stg_austin",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_0qeWAPSqEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - accidents",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_date",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_flag",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_location",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_source",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_time",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1zv_UO1kEe6Dn4yW1-puUw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - pre_stg_chicago",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_4jIOsPUPEe6S1tLlTtFp9A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_contrib_factr",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_contrib_factr",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_contrib_factr",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_4sh8cO7nEe6Dn4yW1-puUw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DJRbgPIyEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DJRbgPIyEe6JqdlijyMAQg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5BgOMPIZEe6cd8KMOgK59w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0NeCAPIaEe6cd8KMOgK59w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_65sEwPJOEe6L1PLSbQrUtg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OsLeIOvIEe6KtrtJOB5nhw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_1kNA4PIZEe6fvZJ2hfTF5Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_UoObQOvHEe6KtrtJOB5nhw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_1kNA4PIZEe6fvZJ2hfTF5Q - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_AvuowPPIEe6xsfarKKy-EA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_veh_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_veh_type",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_BNI2QPS0Ee69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_source",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_vehicle_type",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - fact_accidents",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_vehicle",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_E3_TIOu7Ee6KtrtJOB5nhw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_97TQ0PLsEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LHSxAPLtEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LHSxAPLtEe6JqdlijyMAQg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GDVQMPOjEe6xsfarKKy-EA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_transform_2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_NEQNAPSaEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_R5tCwO14Ee6tToDUy2RgdA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0NeCAPIaEe6cd8KMOgK59w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_r8lZAO18Ee6tToDUy2RgdA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_r8lZAO18Ee6tToDUy2RgdA - nyc_crash_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_RqoooPSiEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_transform_2",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_SankAPJFEe6L1PLSbQrUtg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_V2OaUO2GEe6tToDUy2RgdA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0NeCAPIaEe6cd8KMOgK59w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - pre_stg_nyc",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_shmKkO18Ee6tToDUy2RgdA - nyc_pre_staging",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WWkuAO7pEe6Dn4yW1-puUw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_tj3ZUPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_aIDT8PRtEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_wxZJQPR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gCGykPSkEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_j-ZbEPR6Ee69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_wxZJQPR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_final_chicago",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mEtQAPRpEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_austin_transform_2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_chicago_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mu87oO4uEe6Zt8SSdxAu-g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_n0Vb8PSoEe69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - accident_austin",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - accident_chicago",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - accident_nyc",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oOV1IPLsEe6zUrqeO_qJEw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0NeCAPIaEe6cd8KMOgK59w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_nXpLgPONEe6Kg-b4z3txog",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_siLWsPONEe6Kg-b4z3txog",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_siLWsPONEe6Kg-b4z3txog - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_piiY8MoQEe6amI_0Vc2YWw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_q8ERMPUREe6S1tLlTtFp9A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_contributing_factor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_source",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - fact_accidents",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_r4abIPUFEe6S1tLlTtFp9A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - dim_source",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - fact_accidents",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_contrib_factr",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_uceEYO2TEe6tToDUy2RgdA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_wxZJQPR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0GVr0PR2Ee69BMzFWayHpg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_transform_1",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xoUBAPS0Ee69BMzFWayHpg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg - stg_nyc_veh_type",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xs9HYPNqEe6YMK9GGZSAEQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Mm-WcPNuEe6YMK9GGZSAEQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UL0zAPIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_AOL_4PIxEe6JqdlijyMAQg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Rwxh0PNuEe6YMK9GGZSAEQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Rwxh0PNuEe6YMK9GGZSAEQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
